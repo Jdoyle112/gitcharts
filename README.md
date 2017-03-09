@@ -123,4 +123,4 @@ $('.github-chart').gitcharts({
 
 ## Copyright
 
-The Gitchart jQuery plugin was written by Jack Doyle (c) 2017. Feel free to use it as you wish. It's under the MIT license.  
+The Gitchart jQuery plugin was written by <a href="jackdoyle.co">Jack Doyle</a> (c) 2017. Feel free to use it as you wish. It's under the MIT license.  
