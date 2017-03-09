@@ -327,7 +327,7 @@ function createChartOptions(chart, colors, grid, hideOnHover, resizeChart, lineW
             username        : null,
             organization    : null,
             chart           : 'donut',
-            colors          : ['#333'],
+            colors          : ['#097054', '#ffde00', '#6599ff', '#ff9900'],
             grid            : true,
             hideOnHover     : true,
             lineWidth       : 2,
