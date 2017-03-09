@@ -1,4 +1,4 @@
-# gitcharts
+# Gitcharts
 
 The Gitcharts jQuery plugin easily allows you to create data charts of a user, or organizations commit events from Github. This plugin makes use of the Github puplic API data to construct charts using the Morris.js plugin. 
 
@@ -47,7 +47,7 @@ The plugin allows you to return data for either an individual github username, o
 $('.gitchart.').gitcharts({
     userType: 'individual',
     username: 'jdoyle112',
-    chart: 'donut
+    chart: 'donut'
 });
 ```
 
