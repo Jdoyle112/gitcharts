@@ -109,6 +109,7 @@ $('.github-chart').gitcharts({
 });
 ```
 
+To see demos of these examples, visit <a href="https://jdoyle112.github.io/">https://jdoyle112.github.io/</a>.
 
 
 ## Contributing
