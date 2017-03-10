@@ -22,7 +22,7 @@ This plugin requires an updated version of jQuery, <a href="http://morrisjs.gith
 Once those scripts are included, you can download this repo as a zipped file and extract the package. Copy and paste data/gitcharts.min.js into your projects files. Link to the file with a script tag from your html (below the dependencies scripts). Ex..
 
 ```html
-<script src="githubdata.js"></script>
+<script src="gitcharts.min.js.js"></script>
 ```
 
 ## Usage & Examples
@@ -59,7 +59,7 @@ $('.gitchart.').gitcharts({
 | organization    | null           | 'sample_github_org'             | Use this field to specify the github organization name who's data should be returned.                                                                                                                           |
 | chart           | 'donut'        | 'donut' 'bar' 'line'            | Use this field to specify the type of chart to be displayed.                                                                                                                                                    |
 | xAxisDataType   | 'repos'        | 'repos' 'date'                  | This field will specify the data type of the x axis of the chart.                                                                                                                                               |
-| colors          | ['#097054', '#ffde00', '#6599ff', '#ff9900']      | Array of hex colors             | Use this field to set the colors to be used for the charts. It accepts an array of string hex color values.                                                                                                     |
+| colors          | ['#1abc9c', '#3498db', '#9b59b6', '#e67e22' ]     | Array of hex colors             | Use this field to set the colors to be used for the charts. It accepts an array of string hex color values.                                                                                                     |
 | grid            | true           | true false                      | This field will hide or show horizontal grid lines for line and bar charts.                                                                                                                                     |
 | hideOnHover     | true           | true false 'always'             | Use this field to control how the hover popup is displayed. **true** will only show the popup when the mouse is hovering over it. **false** will always show the popup. **'always'** will never show the popup. |
 | lineWidth       | 2              | Any number value                | Use this field to set the line width in px for line graphs.                                                                                                                                                     |
@@ -102,7 +102,7 @@ $('.github-chart').gitcharts({
 ```js
 $('.github-chart').gitcharts({
     userType: 'organization',
-    username: 'microsoft',
+    organization: 'mozilla',
     chart: 'bar',
     hideOnHover: false,
     grid: false
